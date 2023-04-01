@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>To-do List</title>
+</head>
+
+<body>
+    <h1><i class="fas fa-check-square"></i> To-do List</h1>
+    <div class="container">
+        <div class="main">
+            <p>I have to </p>
+            <input type="text" placeholder="what?">
+            <button id="do-btn">do!</button>
+        </div>
+        <div class="list">
+            <div class="new-item">
+                <p>to work</p>
+                <div class="new-item_additional">
+                    <i class="fas fa-check done show"></i>
+                    <i class="fas fa-times failed hide"></i>
+                    <i class="fas fa-trash trash"></i>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>

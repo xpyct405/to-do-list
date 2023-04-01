@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(315deg, rgb(100, 193, 68), rgb(203, 84, 193));
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    color: #fff;
+    padding: 20px 30px;
+}
+.container {
+    margin: 40px auto 30px;
+    padding: 20px;
+    max-width: 600px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.main p {
+    padding: 0 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+input, button{
+    padding: 8px;
+    border:none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+input {
+    border-radius:  4px 0 0 4px;
+}
+button {
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(203, 84, 193, .4);
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+.list {
+    margin-top: 40px;
+}
+h2 {
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+.new-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 4px 4px;
+    transition: all .7s ease-in-out;
+    margin-top: 20px;
+}
+.new-item.mission-completed {
+    background: rgba(9, 207, 69, 0.8);
+    
+}
+.new-item p {
+    font-size: 24px;
+    font-weight: bold;
+}
+.new-item i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.new-item:hover {
+    background: rgba(0, 0, 0, .2);
+    
+}
+.new-item.mission-completed:hover {
+    background: rgba(9, 207, 69, 0.7);
+}
+.new-item i:hover {
+    color: rgb(226, 225, 225)
+}
+.new-item #done.clicked {
+    color: rgb(54, 235, 69)
+}
+.hide {
+    display: none;
+}
+.show {
+    display: inline-block;
+}
+
+.failed {}
