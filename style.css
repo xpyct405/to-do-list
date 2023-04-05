@@ -76,12 +76,11 @@ h2 {
     font-weight: bold;
 }
 .new-item i {
-    font-size: 20px;
-    padding-right: 10px;
+    font-size: 24px;
+    padding-left: 20px;
 }
 .new-item:hover {
-    background: rgba(0, 0, 0, .2);
-    
+    background: rgba(0, 0, 0, .2);  
 }
 .new-item.mission-completed:hover {
     background: rgba(9, 207, 69, 0.7);
@@ -89,7 +88,7 @@ h2 {
 .new-item i:hover {
     color: rgb(226, 225, 225)
 }
-.new-item #done.clicked {
+.new-item #submit.clicked {
     color: rgb(54, 235, 69)
 }
 .hide {
@@ -98,5 +97,3 @@ h2 {
 .show {
     display: inline-block;
 }
-
-.failed {}
